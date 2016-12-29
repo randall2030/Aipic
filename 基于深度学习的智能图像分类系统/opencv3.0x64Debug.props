@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>C:\software\opencv3.0_vs2013_x64\install\include\opencv;C:\software\opencv3.0_vs2013_x64\install\include\opencv2;C:\software\opencv3.0_vs2013_x64\install\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\software\opencv3.0_vs2013_x64\install\x64\vc12\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>opencv_aruco300d.lib;opencv_bgsegm300d.lib;opencv_bioinspired300d.lib;opencv_calib3d300d.lib;opencv_ccalib300d.lib;opencv_core300d.lib;opencv_cudaarithm300d.lib;opencv_cudabgsegm300d.lib;opencv_cudacodec300d.lib;opencv_cudafeatures2d300d.lib;opencv_cudafilters300d.lib;opencv_cudaimgproc300d.lib;opencv_cudalegacy300d.lib;opencv_cudaobjdetect300d.lib;opencv_cudaoptflow300d.lib;opencv_cudastereo300d.lib;opencv_cudawarping300d.lib;opencv_cudev300d.lib;opencv_datasets300d.lib;opencv_dnn300d.lib;opencv_dpm300d.lib;opencv_face300d.lib;opencv_features2d300d.lib;opencv_flann300d.lib;opencv_fuzzy300d.lib;opencv_hal300d.lib;opencv_highgui300d.lib;opencv_imgcodecs300d.lib;opencv_imgproc300d.lib;opencv_line_descriptor300d.lib;opencv_ml300d.lib;opencv_objdetect300d.lib;opencv_optflow300d.lib;opencv_photo300d.lib;opencv_plot300d.lib;opencv_reg300d.lib;opencv_rgbd300d.lib;opencv_saliency300d.lib;opencv_shape300d.lib;opencv_stereo300d.lib;opencv_stitching300d.lib;opencv_structured_light300d.lib;opencv_superres300d.lib;opencv_surface_matching300d.lib;opencv_text300d.lib;opencv_tracking300d.lib;opencv_ts300d.lib;opencv_video300d.lib;opencv_videoio300d.lib;opencv_videostab300d.lib;opencv_xfeatures2d300d.lib;opencv_ximgproc300d.lib;opencv_xobjdetect300d.lib;opencv_xphoto300d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
